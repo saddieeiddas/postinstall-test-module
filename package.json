@@ -1,0 +1,15 @@
+{
+  "name": "postinstall-test-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cwd-in-node-modules || typings"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cwd-in-node-modules": "^1.0.1"
+  }
+}
